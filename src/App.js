@@ -47,7 +47,7 @@ function App() {
 
   const handleSearch = async (name) => {
     try {
-        const response = await fetch(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api_key}&q=${name}`);
+        const response = await fetch(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api_key}&q=${name}`);
         const data = await response.json();
         if (data && data.length > 0) {
             const cityKey = data[0].Key;
@@ -67,7 +67,7 @@ function App() {
 
 const fetchWeather = async (cityKey) => {
     try {
-        const response = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${api_key}`);
+        const response = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${api_key}`);
         const data = await response.json();
         if (data && data.length > 0) {
             setWeatherData(data[0]);
@@ -81,7 +81,7 @@ const fetchWeather = async (cityKey) => {
 };
 const fetchForecast = async (cityKey) => {
     try {
-        const response = await fetch(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${api_key}`);
+        const response = await fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${api_key}`);
         const data = await response.json();
         if (data && data.DailyForecasts) {
             setForecastData(data.DailyForecasts);
