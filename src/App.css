@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  background-color: #00BCD4;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header h2{
+  color: white;
+}
+#linkBtn{
+  position: absolute;
+  right: 5%;
+}
+#linkBtn button{
+  background-color: #1e32915c;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  cursor: pointer;
+}
+
+#citySerch input{
+  margin: 10px 10px 10px 110px;
+  width: 300px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4.6px);
+}
+#citySerch button{
+  background-color: #07103ee8;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  cursor: pointer;
+}
+#cityTitle button img{
+  height: 40px;
+}
+#cityTitle{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cityTitle h2{
+  margin: 10px 10px 10px 60px;
+  font-size: 40px;
+}
+#cityTitle button{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+#mainTemperature{
+  font-size: 40px;
+  color: white;
+}
+#mainTemperature img{
+  height: 100px;
+}
+#forcastWrap{
+  display: flex;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4.6px);
+  height: 170px;
+  width: 700px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+#allForcasts{
+  display: flex;
+  width: inherit;
+  justify-content: space-evenly;
+}
+#dayForcast{
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4.6px);
+  width: 120px;
+}
+#favoritesWrap{
+  display: flex;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(4.6px);
+  backdrop-filter: blur(4.6px);
+  max-width: 700px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#favorite{
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(4.6px);
+  backdrop-filter: blur(4.6px);
+  width: 155px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+#favoriteP{
+  font-size: 25px;
+    margin: 5px;
+    color: white;
+}
+#favoritsPage h1{
+  margin-bottom: 4rem;
+}
+@media (max-width: 992px){
+.app{
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4.6px);
+  min-height: 400px;
+  width: 400px;
+}
+#homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#forcastWrap{
+  height: 600px;
+  width: 300px;
+  margin-bottom: 2rem;
+}
+#allForcasts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+  align-items: flex-end;
+}
+#header h2{
+  font-size: 20px;
+  margin-left: 25px;
+}
+#linkBtn {
+  display: flex;
+  position: relative;
+  right: 0%;
+}
+#linkBtn button {
+  width: 60px;
+}
+#citySerch input {
+  width: 160px;
+  margin: 10px 10px 10px 75px;
+}
+#citySerch button {
+  width: 50px;
+}
+#citySerch {
+  margin: 1rem 0;
+}
+#cityTitle {
+  margin: 0;
+}
+#mainTemperature p {
+  margin: 0;
+}
+#mainTemperature {
+  margin-bottom: 2rem;
+}
+#favoritesWrap {
+  display: flex;
+  flex-direction: column;
+}
+}
