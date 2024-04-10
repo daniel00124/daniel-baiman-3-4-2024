@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/daniel-baiman-3-4-2024/static/css/main.8c8feb8c.css",
-    "main.js": "/daniel-baiman-3-4-2024/static/js/main.2d762aea.js",
+    "main.js": "/daniel-baiman-3-4-2024/static/js/main.c74dcbb9.js",
     "index.html": "/daniel-baiman-3-4-2024/index.html",
     "static/media/redheart.svg": "/daniel-baiman-3-4-2024/static/media/redheart.2123ca0ccc36e3b67ded0156ea134426.svg",
     "static/media/heart.svg": "/daniel-baiman-3-4-2024/static/media/heart.f81add4b76c14cb35bf8e103cbf9636f.svg",
     "main.8c8feb8c.css.map": "/daniel-baiman-3-4-2024/static/css/main.8c8feb8c.css.map",
-    "main.2d762aea.js.map": "/daniel-baiman-3-4-2024/static/js/main.2d762aea.js.map"
+    "main.c74dcbb9.js.map": "/daniel-baiman-3-4-2024/static/js/main.c74dcbb9.js.map"
   },
   "entrypoints": [
     "static/css/main.8c8feb8c.css",
-    "static/js/main.2d762aea.js"
+    "static/js/main.c74dcbb9.js"
   ]
 }

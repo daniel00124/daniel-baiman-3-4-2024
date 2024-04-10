@@ -1,7 +1,7 @@
 {
   "name": "daniel-baiman-3-4-2024",
   "version": "0.1.0",
-  "homepage": "https://daniel00124.github.io/daniel-baiman-3-4-2024",
+  "homepage": "https://daniel00124.github.io/react-weather-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
