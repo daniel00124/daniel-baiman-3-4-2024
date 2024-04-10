@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/daniel-baiman-3-4-2024/static/css/main.8c8feb8c.css",
-    "main.js": "/daniel-baiman-3-4-2024/static/js/main.c74dcbb9.js",
-    "index.html": "/daniel-baiman-3-4-2024/index.html",
-    "static/media/redheart.svg": "/daniel-baiman-3-4-2024/static/media/redheart.2123ca0ccc36e3b67ded0156ea134426.svg",
-    "static/media/heart.svg": "/daniel-baiman-3-4-2024/static/media/heart.f81add4b76c14cb35bf8e103cbf9636f.svg",
-    "main.8c8feb8c.css.map": "/daniel-baiman-3-4-2024/static/css/main.8c8feb8c.css.map",
-    "main.c74dcbb9.js.map": "/daniel-baiman-3-4-2024/static/js/main.c74dcbb9.js.map"
+    "main.css": "/react-weather-app/static/css/main.8c8feb8c.css",
+    "main.js": "/react-weather-app/static/js/main.20159529.js",
+    "index.html": "/react-weather-app/index.html",
+    "static/media/redheart.svg": "/react-weather-app/static/media/redheart.2123ca0ccc36e3b67ded0156ea134426.svg",
+    "static/media/heart.svg": "/react-weather-app/static/media/heart.f81add4b76c14cb35bf8e103cbf9636f.svg",
+    "main.8c8feb8c.css.map": "/react-weather-app/static/css/main.8c8feb8c.css.map",
+    "main.20159529.js.map": "/react-weather-app/static/js/main.20159529.js.map"
   },
   "entrypoints": [
     "static/css/main.8c8feb8c.css",
-    "static/js/main.c74dcbb9.js"
+    "static/js/main.20159529.js"
   ]
 }
